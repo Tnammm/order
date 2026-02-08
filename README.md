@@ -1,7 +1,5 @@
 # KingMC Minecraft Bot Auto Order
 
-
-
 ---
 
 ## Requirements
@@ -12,19 +10,23 @@ Before running the bot, make sure you have:
   Download: https://nodejs.org  
 - A stable internet connection
 
-Check your Node version:
 
-```bash
-node -v
+
+
 Installation
+
 Open the project folder in Terminal or Command Prompt and run:
 
-npm install
-This installs all required dependencies.
+
+``` npm install ```
+
+
 
 Configuration
-Create a file named .env in the project folder and add:
 
+Create a file name .env in the project folder and add:
+
+```
 MC_HOST=kingmc.vn
 MC_PORT=25565
 MC_USERNAME=your_bot_name
@@ -40,7 +42,14 @@ BONE_Z=your_coord
 BLAZE_X=your_coord
 BLAZE_Y=your_coord
 BLAZE_Z=your_coord
+```
+
+
 Run Bot
 Start the bot with:
 
-node final.js
+```
+ node final.js
+```
+
+
